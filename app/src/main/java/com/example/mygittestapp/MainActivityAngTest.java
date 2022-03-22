@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivityAngTest extends AppCompatActivity {
-//mark was here
+    //mark was here
     // ANG WAS HERE
 //mark was here and now added more stuff p
     @Override
@@ -13,7 +13,12 @@ public class MainActivityAngTest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_ang_test);
     }
+
     protected void onStop(Bundle savedInstanceState) {
+
+    }
+
+    protected void onStart(Bundle savedInstanceState) {
 
     }
 }
